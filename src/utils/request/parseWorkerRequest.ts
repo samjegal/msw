@@ -1,5 +1,5 @@
 import { encodeBuffer } from '@mswjs/interceptors'
-import hp from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
 const { Headers } = hp
 import { ServiceWorkerIncomingRequest } from '../../setupWorker/glossary'
 import { MockedRequest } from './MockedRequest'

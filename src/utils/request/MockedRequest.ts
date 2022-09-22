@@ -2,7 +2,7 @@ import { store } from '@mswjs/cookies'
 import { IsomorphicRequest, RequestInit } from '@mswjs/interceptors'
 import { decodeBuffer } from '@mswjs/interceptors/lib/utils/bufferUtils.js'
 import * as cookieUtils from 'cookie'
-import hp from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
 const { Headers } = hp
 import { DefaultBodyType } from '../../handlers/RequestHandler'
 import { MockedResponse } from '../../response'

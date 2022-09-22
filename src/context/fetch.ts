@@ -1,5 +1,5 @@
 import { isNodeProcess } from 'is-node-process'
-import hp from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
 const { Headers } = hp
 import { MockedRequest } from '../utils/request/MockedRequest'
 

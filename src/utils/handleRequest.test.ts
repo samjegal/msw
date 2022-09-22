@@ -1,4 +1,4 @@
-import hp from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
 const { Headers } = hp
 import { StrictEventEmitter } from 'strict-event-emitter'
 import { ServerLifecycleEventsMap } from '../node/glossary'

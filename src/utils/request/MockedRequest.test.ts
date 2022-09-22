@@ -1,4 +1,4 @@
-import hp from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
 const { Headers } = hp
 import { clearCookies } from '../../../test/support/utils'
 import { MockedRequest } from './MockedRequest'
