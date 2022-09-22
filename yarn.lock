@@ -7513,13 +7513,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"headers-polyfill@https://github.com/samjegal/headers-polyfill":
-  version: 3.1.0
-  resolution: "headers-polyfill@https://github.com/samjegal/headers-polyfill.git#commit=b265f5dbbcdd16d3051036e5738a6332052424e3"
-  checksum: f0efb599428d36a47fe1f0779774999d52073ec37319c376b051b1d15ac7adc6bbe87bf80d92cf368f6f87d6fa937cc92bc0743ad4c04b14b5926b37eb6ea047
-  languageName: node
-  linkType: hard
-
 "headers-polyfill@npm:^3.1.0":
   version: 3.1.0
   resolution: "headers-polyfill@npm:3.1.0"
@@ -10063,7 +10056,7 @@ __metadata:
     fs-extra: ^10.0.0
     fs-teardown: ^0.3.0
     graphql: ^15.0.0 || ^16.0.0
-    headers-polyfill: "https://github.com/samjegal/headers-polyfill"
+    headers-polyfill: ^3.1.0
     inquirer: ^8.2.0
     is-node-process: ^1.0.1
     jest: 26
