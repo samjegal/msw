@@ -1,4 +1,5 @@
-import { flattenHeadersObject, headersToObject } from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
+const { flattenHeadersObject, headersToObject } = hp
 import type { SerializedResponse } from '../../setupWorker/glossary'
 
 export function serializeResponse(source: Response): SerializedResponse<any> {
