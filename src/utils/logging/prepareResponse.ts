@@ -1,4 +1,5 @@
-import { objectToHeaders } from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
+const { objectToHeaders } = hp
 import { SerializedResponse } from '../../setupWorker/glossary'
 import { parseBody } from '../request/parseBody'
 

@@ -1,4 +1,5 @@
-import { objectToHeaders } from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
+const { objectToHeaders } = hp
 import { ResponseTransformer } from '../response'
 
 export type HeadersObject<KeyType extends string = string> = Record<
