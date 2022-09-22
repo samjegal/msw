@@ -1,4 +1,5 @@
-import { Headers } from 'headers-polyfill'
+import hp from 'headers-polyfill'
+const { Headers } = hp
 import { DefaultBodyType } from './handlers/RequestHandler'
 import { compose } from './utils/internal/compose'
 import { NetworkError } from './utils/NetworkError'

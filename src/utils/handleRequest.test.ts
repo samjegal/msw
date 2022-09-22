@@ -1,4 +1,5 @@
-import { Headers } from 'headers-polyfill'
+import hp from 'headers-polyfill'
+const { Headers } = hp
 import { StrictEventEmitter } from 'strict-event-emitter'
 import { ServerLifecycleEventsMap } from '../node/glossary'
 import { SharedOptions } from '../sharedOptions'

@@ -1,5 +1,6 @@
 import { isNodeProcess } from 'is-node-process'
-import { Headers } from 'headers-polyfill'
+import hp from 'headers-polyfill'
+const { Headers } = hp
 import { MockedRequest } from '../utils/request/MockedRequest'
 
 const useFetch: (input: RequestInfo, init?: RequestInit) => Promise<Response> =

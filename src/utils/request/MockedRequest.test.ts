@@ -1,4 +1,5 @@
-import { Headers } from 'headers-polyfill'
+import hp from 'headers-polyfill'
+const { Headers } = hp
 import { clearCookies } from '../../../test/support/utils'
 import { MockedRequest } from './MockedRequest'
 

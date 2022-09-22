@@ -3,7 +3,8 @@
  */
 import { encodeBuffer } from '@mswjs/interceptors'
 import { OperationTypeNode, parse } from 'graphql'
-import { Headers } from 'headers-polyfill'
+import hp from 'headers-polyfill'
+const { Headers } = hp
 import { context, MockedRequest, MockedRequestInit } from '..'
 import { response } from '../response'
 import {
