@@ -1,4 +1,5 @@
-import { stringToHeaders } from 'headers-polyfill'
+import * as hp from 'headers-polyfill'
+const { stringToHeaders } = hp
 import { DefaultRequestMultipartBody } from '../../handlers/RequestHandler'
 
 interface ParsedContentHeaders {
